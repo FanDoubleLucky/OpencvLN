@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		62069621221ACA7B009F937A /* RecordVideo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6206961F221ACA7B009F937A /* RecordVideo.cpp */; };
 		6218AE6C2219C5DF003EF614 /* PixelOp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6218AE6A2219C5DF003EF614 /* PixelOp.cpp */; };
+		62681CE92238F7DB00873BA0 /* Thresh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62681CE72238F7DB00873BA0 /* Thresh.cpp */; };
+		62681CEC22393AFF00873BA0 /* Derivative.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62681CEA22393AFF00873BA0 /* Derivative.cpp */; };
 		62C45CEB221947F500E6825E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62C45CEA221947F500E6825E /* main.cpp */; };
 		62C45DB4221953DA00E6825E /* ImageShow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62C45DB2221953DA00E6825E /* ImageShow.cpp */; };
 		62C45DB72219572700E6825E /* VideoShow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62C45DB52219572700E6825E /* VideoShow.cpp */; };
@@ -214,6 +216,10 @@
 		62069620221ACA7B009F937A /* RecordVideo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RecordVideo.hpp; sourceTree = "<group>"; };
 		6218AE6A2219C5DF003EF614 /* PixelOp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PixelOp.cpp; sourceTree = "<group>"; };
 		6218AE6B2219C5DF003EF614 /* PixelOp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PixelOp.hpp; sourceTree = "<group>"; };
+		62681CE72238F7DB00873BA0 /* Thresh.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Thresh.cpp; sourceTree = "<group>"; };
+		62681CE82238F7DB00873BA0 /* Thresh.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Thresh.hpp; sourceTree = "<group>"; };
+		62681CEA22393AFF00873BA0 /* Derivative.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Derivative.cpp; sourceTree = "<group>"; };
+		62681CEB22393AFF00873BA0 /* Derivative.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Derivative.hpp; sourceTree = "<group>"; };
 		62C45CE7221947F500E6825E /* OpencvLn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpencvLn; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C45CEA221947F500E6825E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		62C45CF222194CD900E6825E /* Cellar */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Cellar; path = ../../../../../usr/local/Cellar; sourceTree = "<group>"; };
@@ -547,6 +553,10 @@
 				6218AE6B2219C5DF003EF614 /* PixelOp.hpp */,
 				6206961F221ACA7B009F937A /* RecordVideo.cpp */,
 				62069620221ACA7B009F937A /* RecordVideo.hpp */,
+				62681CE72238F7DB00873BA0 /* Thresh.cpp */,
+				62681CE82238F7DB00873BA0 /* Thresh.hpp */,
+				62681CEA22393AFF00873BA0 /* Derivative.cpp */,
+				62681CEB22393AFF00873BA0 /* Derivative.hpp */,
 			);
 			path = OpencvLn;
 			sourceTree = "<group>";
@@ -711,11 +721,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				62C45DB4221953DA00E6825E /* ImageShow.cpp in Sources */,
+				62681CE92238F7DB00873BA0 /* Thresh.cpp in Sources */,
 				6218AE6C2219C5DF003EF614 /* PixelOp.cpp in Sources */,
 				62C45DBD2219AF0D00E6825E /* GaussianSimple.cpp in Sources */,
 				62C45DB72219572700E6825E /* VideoShow.cpp in Sources */,
 				62C45DBA2219A3B600E6825E /* SimpleTrans.cpp in Sources */,
 				62C45CEB221947F500E6825E /* main.cpp in Sources */,
+				62681CEC22393AFF00873BA0 /* Derivative.cpp in Sources */,
 				62069621221ACA7B009F937A /* RecordVideo.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
